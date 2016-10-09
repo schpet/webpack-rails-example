@@ -9,7 +9,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack --config client/webpack.config.js",
-    "watch": "webpack --config client/webpack.config.js --watch"
+    "watch": "webpack --config client/webpack.config.js --watch",
+    "postinstall": "npm run build"
   },
   "keywords": [],
   "author": "",
